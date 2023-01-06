@@ -10,13 +10,17 @@ body
 
 .box
 {
+	
 	width:1360px;
+	height:768px;
+	background:#000;
+/* 	width:1360px;
 	height:768px;
 	background:#000;
 	position:absolute;
 	top:50%;
 	left:50%;
-	transform:translate(-50%,-50%)
+	transform:translate(-50%,-50%) */
 }
 
 
@@ -54,8 +58,8 @@ h1,p
 	height:100vh;
 	background:#000;
 	position:absolute;
-	top:20%;
-	left:20%;
+	top:50%;
+	left:50%;
 	transform:translate(-50%,-50%)
 }
 }
