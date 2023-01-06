@@ -1,7 +1,7 @@
 body
 {
 	font-family: 'Anton', sans-serif;
-font-family: 'Righteous', cursive;
+	font-family: 'Righteous', cursive;
 	margin:0px;
 	padding:0px;
 	background:#ccc;
@@ -10,8 +10,8 @@ font-family: 'Righteous', cursive;
 
 .box
 {
-	width:700px;
-	height:400px;
+/* 	width:700px;
+	height:400px; */
 	background:#000;
 	position:absolute;
 	top:50%;
