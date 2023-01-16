@@ -1661,3 +1661,10 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.heart{
+	color:#e25555;
+	font-size:1rem;
+	width:60%;
+}
+
