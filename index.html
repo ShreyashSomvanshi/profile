@@ -30,10 +30,42 @@
 
 							<div class="inner">
 								<h1>SHREYASH SOMVANSHI</h1>
-								<p>I am an AI Researcher, Data Scientist, Machine Learning Engineer</p>
-								<!--<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p> -->
+								<!-- <p>I am an AI Researcher, Data Scientist, Machine Learning Engineer</p> -->
+								<h3> I'm <br/>
+									<span class="text-slider-items">
+										Data Scientist, A.I. Researcher, ML Engineer
+									</span>
+									<strong class="text-slider"></strong>
+
+								</h3>
 							</div>
+							
+							<script src="./assets/js/typed.min.js"></script>
+									
+							
+
+							<!-- Add jquery cdn -->
+							<script src=
+							"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+							</script>
+
+							<!-- Add this script for successful
+									implementation of typed.js  -->
+							<script>
+									if ($(".text-slider").length == 1) {
+
+											var typed_strings =
+													$(".text-slider-items").text();
+
+											var typed = new Typed(".text-slider", {
+													strings: typed_strings.split(", "),
+													typeSpeed: 80,
+													loop: true,
+													backDelay: 1500,
+													backSpeed: 60,
+											});
+									}
+							</script>
 
 							<div class="icons">
 								<ul class="icons">
