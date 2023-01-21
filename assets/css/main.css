@@ -1162,7 +1162,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/BgImg/blue-orange-art.webp");
+			/*background-image: url("../../images/BgImg/blue-orange-art.webp"); */
+			background-image: url("../../images/BgImg/blue white red bg.webp");
 			/* background-image: url("../../images/bg.jpg"); */
 			/* background-image: url("../../images/black_bg.gif"); */
 			background-position: center;
